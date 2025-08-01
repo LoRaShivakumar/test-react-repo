@@ -1,0 +1,45 @@
+/* src/components/TodoList/TodoList.css */
+
+.todo-container {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: rgb(248, 188, 248);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  background-color: #eaecee;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-button {
+  background-color: #ff4d4f;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.delete-button:hover {
+  background-color: #d9363e;
+}
